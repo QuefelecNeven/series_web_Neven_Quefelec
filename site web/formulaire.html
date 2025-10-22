@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="banniere">
+            <h1>Pokémon</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="main.html">Accueil</a></li>
+                <li><a href="saison.html">Saisons</a></li>
+                <li><a href="personnages.html">Personnages</a></li>
+                <li><a href="bA.html">Bandes annonce</a></li>
+                <li><a href="formulaire.html">formulaire</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formulaire-contact">
+            <h2>Contactez-nous</h2>
+            <p>Remplissez le formulaire ci-dessous pour nous envoyer un message.</p>
+
+            <form>
+                <!-- Informations de base -->
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="exemple@email.com" required>
+
+                <label for="sujet">Sujet :</label>
+                <input type="text" id="sujet" name="sujet" placeholder="Sujet de votre message" required>
+
+                <!-- Questions avec cases à cocher -->
+                <fieldset>
+                    <legend>Quels types de contenu aimez-vous ?</legend>
+                    <label><input type="checkbox" name="contenu" value="series"> Séries Pokémon</label>
+                    <label><input type="checkbox" name="contenu" value="films"> Films Pokémon</label>
+                    <label><input type="checkbox" name="contenu" value="jeux"> Jeux vidéo</label>
+                    <label><input type="checkbox" name="contenu" value="cartes"> Cartes à collectionner</label>
+                    <label><input type="checkbox" name="contenu" value="actualites"> Actualités Pokémon</label>
+                </fieldset>
+
+                <!-- Question avec boutons radio -->
+                <fieldset>
+                    <legend>Depuis combien de temps êtes-vous fan de Pokémon ?</legend>
+                    <label><input type="radio" name="anciennete" value="moins1" required> Moins d’un an</label>
+                    <label><input type="radio" name="anciennete" value="1a5"> 1 à 5 ans</label>
+                    <label><input type="radio" name="anciennete" value="plus5"> Plus de 5 ans</label>
+                </fieldset>
+
+                <!-- Message -->
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+
+                <!-- Boutons -->
+                <div class="boutons-form">
+                    <input type="reset" value="Effacer">
+                    <input type="submit" value="Envoyer">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Quefelec Neven</p>
+    </footer>
+</div>
+
+</body>
+</html>

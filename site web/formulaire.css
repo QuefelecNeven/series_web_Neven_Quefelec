@@ -1,0 +1,66 @@
+/* --- Formulaire de contact --- */
+.formulaire-contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.formulaire-contact h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 8px;
+    border: 1px solid #000;
+    font-size: 1em;
+}
+
+textarea {
+    resize: none;
+}
+
+/* --- Groupes de questions --- */
+fieldset {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+fieldset label {
+    display: block;
+    margin: 5px 0;
+}
+
+/* --- Boutons --- */
+.boutons-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 16px;
+    border: 1px solid #000;
+    background: none;
+    cursor: pointer;
+}

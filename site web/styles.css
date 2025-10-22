@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Remplacer le fond gris par une image */
+    background-image: url('fond_721.png'); /* chemin vers ton image */
+    background-size: cover; /* l'image couvre tout le body */
+    background-repeat: no-repeat; /* pas de répétition */
+}
+
+
+/* --- Conteneur central --- */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+}
+
+/* --- Bannière --- */
+.banniere {
+    text-align: center;
+    border: 1px solid #131212;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* --- Menu --- */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+nav ul li {
+    margin: 0;
+    border-right: 1px solid #000;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* --- Corps principal --- */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.personnages {
+    width: 70%;
+}
+
+.personnage {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.personnage img {
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+    border: 1px solid #000;
+}
+
+aside {
+    width: 25%;
+    border: 1px solid #000;
+    padding: 15px;
+    background-color: #fafafa;
+}
+
+aside h3 {
+    margin-top: 15px;
+}
+
+/* --- Tableau des réseaux --- */
+.reseaux-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.reseaux-table th,
+.reseaux-table td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+}
+
+.reseaux-table th {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+/* --- Carte contact --- */
+.carte-contact {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* --- Pied de page --- */
+footer {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}

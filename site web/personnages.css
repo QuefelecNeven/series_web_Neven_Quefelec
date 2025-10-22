@@ -1,0 +1,43 @@
+/* --- Page Personnages --- */
+.personnages-page {
+    margin: 10px;
+}
+
+.fiche-personnage {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.fiche-personnage .portrait {
+    width: 120px;
+    height: 120px;
+    background-color: #ccc;
+    margin-right: 20px;
+}
+
+/* --- Page Bandes Annonces --- */
+.bandes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.bandes-table th,
+.bandes-table td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 8px;
+}
+
+.bandes-table th {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+img {
+  width: 5%;
+
+}
